@@ -1,0 +1,3 @@
+[submodule "solana-starter-repo"]
+	path = solana-starter-repo
+	url = https://github.com/slimrealm/solana-starter-repo.git
