@@ -25,6 +25,10 @@ pub mod anchor_vault_q3_2024 {
 
         Ok(())
     }
+    pub fn close(ctx: Context<Close>) -> Result<()> {
+        ctx.accounts.close()?;
+        Ok(())
+    }
 }
 
 #[derive(Accounts)]
