@@ -15,16 +15,16 @@ pub struct Initialize<'info> {
     #[account(mut)]
     maker: Signer<'info>,
     #[account(
-        // init,
-        // payer = maker,
-        // space = 8 + Config::INIT_SPACE,
+        init,
+        payer = maker,
+        space = 8 + Config::INIT_SPACE,
         seeds = [b"amm", mint_x.key().as_ref(),mint_y.key().as_ref(), seed.to_le_bytes().as_ref()],
         bump
     )]
     config: Box<Account<'info, Config>>,
     #[account(
-        // init,
-        // payer = maker,
+        init,
+        payer = maker,
         mint::authority = config,
         mint::decimals = 6,
         seeds = [b"mint",config.key().as_ref()],
@@ -32,15 +32,13 @@ pub struct Initialize<'info> {
     )]
     mint_lp: Box<InterfaceAccount<'info, Mint>>,
     #[account(
-        init,
-        payer = maker,
+        mut,
         associated_token::mint = mint_x,
         associated_token::authority = maker,
     )]
     maker_ata_x: Box<InterfaceAccount<'info, TokenAccount>>,
     #[account(
-        init,
-        payer = maker,
+        mut,
         associated_token::mint = mint_y,
         associated_token::authority = maker,
     )]
