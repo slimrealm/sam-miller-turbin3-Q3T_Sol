@@ -1,3 +1,3 @@
-[submodule "rs/nft-staking"]
-	path = rs/nft-staking
+[submodule "nft-staking"]
+	path = nft-staking
 	url = https://github.com/slimrealm/nft-staking.git
