@@ -1,3 +1,6 @@
 [submodule "nft-staking"]
 	path = nft-staking
 	url = https://github.com/slimrealm/nft-staking.git
+[submodule "dice-game"]
+	path = dice-game
+	url = https://github.com/slimrealm/dice-game.git
