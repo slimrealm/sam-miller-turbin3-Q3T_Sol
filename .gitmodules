@@ -4,3 +4,6 @@
 [submodule "dice-game"]
 	path = dice-game
 	url = https://github.com/slimrealm/dice-game.git
+[submodule "CAPSTONE/leaderboard-rewards"]
+	path = CAPSTONE/leaderboard-rewards
+	url = https://github.com/slimrealm/leaderboard-rewards.git
