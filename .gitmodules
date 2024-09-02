@@ -1,3 +1,9 @@
-[submodule "solana-starter-repo"]
-	path = solana-starter-repo
-	url = https://github.com/slimrealm/solana-starter-repo.git
+[submodule "nft-staking"]
+	path = nft-staking
+	url = https://github.com/slimrealm/nft-staking.git
+[submodule "dice-game"]
+	path = dice-game
+	url = https://github.com/slimrealm/dice-game.git
+[submodule "CAPSTONE/leaderboard-rewards"]
+	path = CAPSTONE/leaderboard-rewards
+	url = https://github.com/slimrealm/leaderboard-rewards.git
