@@ -3,7 +3,7 @@ use anchor_lang::{
     system_program::{transfer, Transfer},
 };
 
-declare_id!("5N33BWZRjgQhGCamDsx3pPsgBb5o54APDcvYCsTGQ1bp");
+declare_id!("7mNUzz8ZXyDoZvcFRD4zJ5siHW5WVJnocwqpCYNxAbQr");
 
 #[program]
 pub mod anchor_vault_q3_2024 {
