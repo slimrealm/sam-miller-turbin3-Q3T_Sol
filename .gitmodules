@@ -13,3 +13,6 @@
 [submodule "anchor-escrow"]
 	path = anchor-escrow
 	url = https://github.com/slimrealm/anchor-escrow.git
+[submodule "metaplex_core_staking_example_turbin3"]
+	path = metaplex_core_staking_example_turbin3
+	url = https://github.com/slimrealm/metaplex_core_staking_example_turbin3.git
