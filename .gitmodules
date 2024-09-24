@@ -4,9 +4,6 @@
 [submodule "dice-game"]
 	path = dice-game
 	url = https://github.com/slimrealm/dice-game.git
-[submodule "CAPSTONE/leaderboard-rewards"]
-	path = CAPSTONE/leaderboard-rewards
-	url = https://github.com/slimrealm/leaderboard-rewards.git
 [submodule "anchor_vault"]
 	path = anchor_vault
 	url = https://github.com/slimrealm/anchor-vault.git
@@ -16,3 +13,6 @@
 [submodule "metaplex_core_staking_example_turbin3"]
 	path = metaplex_core_staking_example_turbin3
 	url = https://github.com/slimrealm/metaplex_core_staking_example_turbin3.git
+[submodule "CAPSTONE/leaderboard_payouts"]
+	path = CAPSTONE/leaderboard_payouts
+	url = https://github.com/slimrealm/leaderboard_payouts.git
